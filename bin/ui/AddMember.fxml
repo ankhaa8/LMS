@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="402.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.AddMemberWindow">
+  <children>
+    <Button fx:id="btnAddMember" layoutX="261.0" layoutY="346.0" mnemonicParsing="false" onAction="#addMember" text="Add" />
+    <TextField fx:id="txtFirstName" layoutX="136.0" layoutY="63.0" />
+    <TextField fx:id="txtLastName" layoutX="136.0" layoutY="102.0" />
+    <TextField fx:id="txtPhone" layoutX="136.0" layoutY="142.0" />
+    <TextField fx:id="txtStreet" layoutX="136.0" layoutY="180.0" />
+    <TextField fx:id="txtCity" layoutX="136.0" layoutY="220.0" />
+    <TextField fx:id="txtState" layoutX="136.0" layoutY="258.0" />
+    <TextField fx:id="txtZip" layoutX="136.0" layoutY="298.0" />
+    <Label layoutX="58.0" layoutY="67.0" text="First name" />
+    <Label layoutX="58.0" layoutY="106.0" text="Last name" />
+    <Label layoutX="58.0" layoutY="146.0" text="Phone" />
+    <Label layoutX="60.0" layoutY="184.0" text="Street" />
+    <Label layoutX="58.0" layoutY="224.0" text="City" />
+    <Label layoutX="59.0" layoutY="262.0" text="State" />
+    <Label layoutX="64.0" layoutY="302.0" text="Zip" />
+    <Button fx:id="btnCancelAddMember" layoutX="175.0" layoutY="346.0" mnemonicParsing="false" onAction="#clear" text="Clear" />
+    <Label layoutX="58.0" layoutY="37.0" text="ID" />
+    <TextField fx:id="txtID" layoutX="136.0" layoutY="25.0" />
+  </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="268.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.PrinterWindow">
+   <children>
+      <Label layoutX="128.0" layoutY="24.0" text="Checkout Record Printer" />
+      <Label layoutX="37.0" layoutY="104.0" text="Enter Member Id :" />
+      <TextField fx:id="txtId" layoutX="183.0" layoutY="100.0" promptText="Enter Member Id" />
+      <Button fx:id="btn" layoutX="183.0" layoutY="160.0" mnemonicParsing="false" onAction="#print" text="Print" />
+   </children>
+</AnchorPane>

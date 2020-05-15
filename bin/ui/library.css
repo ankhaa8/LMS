@@ -1,0 +1,20 @@
+#top-container{
+    -fx-background-color: #fbffd1;/*#8E0000*/
+}
+
+.background {
+    -fx-background-color:  #fbffd1;
+}
+
+.label {
+   -fx-text-fill: #000099;
+}
+
+.root
+{
+    -fx-background-color: #fbffd1;
+}
+
+.button {
+   -fx-text-fill: #000099;
+}

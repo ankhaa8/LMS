@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="351.0" prefWidth="412.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.AddBookWindow">
+    <children>
+        <Label layoutX="152.0" layoutY="14.0" text="Add New Book">
+         <font>
+            <Font name="Verdana Bold" size="13.0" />
+         </font></Label>
+        <Label layoutX="118.0" layoutY="52.0" text="Title :  " />
+        <Label layoutX="114.0" layoutY="89.0" text="ISBN :  " />
+        <Label layoutX="22.0" layoutY="123.0" text="Max Checkout Days :  " />
+        <Label layoutX="89.0" layoutY="162.0" text="# Copies :  " />
+        <Label layoutX="95.0" layoutY="194.0" text="Authors :  " />
+        <TextField fx:id="txtTitle" layoutX="160.0" layoutY="47.0" promptText="Enter Title" />
+        <TextField fx:id="txtIsbn" layoutX="159.0" layoutY="84.0" promptText="Enter ISBN" />
+        <TextField fx:id="txtChkDays" layoutX="159.0" layoutY="120.0" promptText="Enter Max Checkout Days" />
+        <TextField fx:id="txtCopies" layoutX="159.0" layoutY="157.0" promptText="Number of Copies" />
+        <Button fx:id="btnPlus" layoutX="331.0" layoutY="194.0" mnemonicParsing="false" onAction="#plus" prefHeight="27.0" prefWidth="10.0" text="+" />
+        <Button fx:id="btnSave" layoutX="159.0" layoutY="291.0" mnemonicParsing="false" onAction="#save" text="Save" />
+      <Label fx:id="listAuthors" alignment="TOP_LEFT" layoutX="159.0" layoutY="194.0" prefHeight="86.0" prefWidth="167.0" style="-fx-background-color: #eeeeee;" />
+      <Button fx:id="btnBack" layoutX="217.0" layoutY="291.0" mnemonicParsing="false" onAction="#back" text="Clear" />
+      <Button fx:id="btnShow" layoutX="275.0" layoutY="291.0" mnemonicParsing="false" onAction="#show" prefHeight="31.0" prefWidth="57.0" text="Show" />
+    </children>
+</AnchorPane>
